@@ -8,8 +8,10 @@
     "test": "export NODE_ENV=test || SET NODE_ENV=test && mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
-  
-  "author": "Jitendra",
+  "engines": {
+    "node": "6.2.2"
+  },
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.3.0",
